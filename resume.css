@@ -1,0 +1,13 @@
+head {
+    font-family: 'Courier New', Courier, monospace;
+    color: lightsalmon;
+}
+
+body {
+    background-color: grey;
+}
+
+h1 {
+    color: orange;
+    margin-left: 20%;
+}
