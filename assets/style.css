@@ -3,8 +3,7 @@ head {
 }
 
 body {
-    background-color: rgb(31, 31, 31);
-    background-image: url("./bg.png");
+    background: rgb(31, 31, 31) url("./bg.png") center fixed;
 }
 
 h1 {
