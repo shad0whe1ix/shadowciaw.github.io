@@ -4,13 +4,18 @@ head {
 
 body {
     background-color: grey;
-    /* background-image: url(https://w.wallhaven.cc/full/0j/wallhaven-0jpqop.jpg) */
-    background-image: url("/bg.png");
+    background-image: url("./bg.png");
 }
 
 h1 {
     font-family: 'Courier New', Courier, monospace;
     align-content: center;
     color: orange;
-    margin-left: 20%;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    align-content: stretch;
+    color: yellow;
+
 }
