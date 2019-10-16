@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(31, 31, 31);
+    background-image: url("./bg.png");
+    /* background-position: center; */
+    /* background-attachment: fixed; */
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    align-content: center;
+    color: orange;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    align-content: stretch;
+    color: yellow;
+}
