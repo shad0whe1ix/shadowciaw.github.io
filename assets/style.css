@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+/* 
+bootstrap switch global box sizing from content-box to border box: ensures padding doesnt affect final computed element width; may cause problems w/ 3rd party SW (Google maps, Google Custom, etc) */
+
 body {
     background-color: rgb(31, 31, 31);
     background-image: url("./bg.png");
@@ -8,7 +11,7 @@ body {
 }
 
 h1 {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     align-content: center;
     color: orange;
 }
@@ -17,4 +20,9 @@ h2 {
     font-family: 'Courier New', Courier, monospace;
     align-content: stretch;
     color: yellow;
+}
+
+.container {
+    background: dimgray;
+    padding: 5%;
 }
